@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<Button 
+        android:id="@+id/btn1"
+        android:text="创建房间"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+<Button 
+        android:id="@+id/btn2"
+        android:text="加入房间"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<EditText 
+        android:id="@+id/edit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:visibility="gone"
+    />
+<EditText 
+        android:id="@+id/edit2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="88888888"
+         android:visibility="gone"
+    />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+<Button 
+        android:id="@+id/start"
+        android:text="创建"
+          android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<Button 
+        android:id="@+id/join"
+        android:text="加入"
+          android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<Button 
+        android:id="@+id/cancel"
+        android:text="取消"
+          android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+<TextView 
+        android:id="@+id/text1"
+        android:text="message"
+          android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>

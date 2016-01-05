@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<Button 
+        android:id="@+id/btn1"
+        android:text="单人模式"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<Button 
+        android:id="@+id/btn2"
+        android:text="多人模式"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+<Button
+    android:id="@+id/btn3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="音效选项" />
+
+<Button 
+        android:id="@+id/btn4"
+        android:text="关于我们"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
