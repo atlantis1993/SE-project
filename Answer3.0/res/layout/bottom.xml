@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#938192"
+    >
+ 
+ 
+      <Button
+         android:id="@+id/start"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/btn"
+         android:text="哈哈" />
+         <Button
+         android:id="@+id/model1"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_toLeftOf="@id/start"
+         android:text="模式1" />  
+      <Button
+         android:id="@+id/model2"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_toRightOf="@id/start"
+         android:text="模式2" />
+        <Button
+         android:id="@+id/lucky"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_toLeftOf="@id/model1"
+         android:text="抽奖" />  
+      <Button
+         android:id="@+id/check"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_toRightOf="@id/model2"
+         android:text="查看" />
+</RelativeLayout>

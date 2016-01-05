@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/model1_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  这里是提示模式一的具体游戏规则"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/model2_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  这里是提示模式2的具体游戏规则"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/aswA"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="23dp"
+        android:background="#33CCFF"
+        android:text="aswA" />
+
+    <Button
+        android:id="@+id/aswB"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="22dp"
+        android:background="#33CCFF"
+        android:text="aswB" />
+
+    <Button
+        android:id="@+id/aswC"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="14dp"
+        android:background="#33CCFF"
+        android:text="aswC" />
+
+    <Button
+        android:id="@+id/aswD"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="22dp"
+        android:background="#33CCFF"
+        android:text="aswD" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

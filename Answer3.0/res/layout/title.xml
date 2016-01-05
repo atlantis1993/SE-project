@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:paddingTop="3sp"
+    android:paddingBottom="3sp"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/exitroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="#000000"
+         android:textColor="#FFFFFF"
+         android:paddingRight="3sp"
+        android:text="退出房间" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#FFFFFF"
+        android:text="房间人数：1" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+         android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:text="返回" />
+</LinearLayout>

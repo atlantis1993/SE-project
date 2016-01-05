@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list android:oneshot="false"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:duration="150" android:drawable="@drawable/kenan110" />
+	<item android:duration="150" android:drawable="@drawable/kenan111" />
+	<item android:duration="150" android:drawable="@drawable/kenan112" />
+	<item android:duration="150" android:drawable="@drawable/kenan113" />
+	<item android:duration="150" android:drawable="@drawable/kenan114" />
+	<item android:duration="150" android:drawable="@drawable/kenan115" />
+	<item android:duration="150" android:drawable="@drawable/kenan116" />
+	<item android:duration="150" android:drawable="@drawable/kenan117" />
+	<item android:duration="150" android:drawable="@drawable/kenan118" />
+	<item android:duration="150" android:drawable="@drawable/kenan119" />
+</animation-list> 
